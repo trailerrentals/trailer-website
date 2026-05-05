@@ -63,20 +63,29 @@
 
 <body>
 
-<header style="text-align:center; padding:20px; background:black; color:white;">
-  
-  <img 
-    src="https://raw.githubusercontent.com/trailerrentals/trailer-website/main/logo.png"
-    style="height:140px; display:block; margin:0 auto;"
-  >
+<header style="
+  background:#4b0f1e;
+  color:white;
+  padding:20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+">
 
-  <h1 style="margin:10px 0 0 0;">
-    Haul Star Trailer Rental
-  </h1>
+  <!-- LOGO (BIGGER) -->
+  <div style="flex:1; min-width:200px;">
+    <img src="https://raw.githubusercontent.com/trailerrentals/trailer-website/main/logo.png"
+         style="height:160px; max-width:100%; object-fit:contain;">
+  </div>
 
-  <p>Reliable • Affordable • Ready to Work</p>
+  <!-- TEXT -->
+  <div style="flex:2; text-align:right; min-width:250px;">
+    <h1 style="margin:0;">Haul Star Trailer Rental</h1>
+    <p style="margin:5px 0 0 0;">Reliable • Affordable • Ready to Work</p>
+  </div>
+
 </header>
-
 <div class="container">
 
   <h2>Our Trailers</h2>
